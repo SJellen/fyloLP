@@ -48,6 +48,8 @@ body {
   border: 1px solid silver;
   margin-left: 75px;
   margin-top: 100px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
 }
 
 .top p {
@@ -89,6 +91,10 @@ body {
   padding-bottom: 20px;
   border-radius: 4px;
   line-height: .8;
+  font-family: 'Raleway', sans-serif;
+  border: none;
+  -webkit-box-shadow: 0 0 15px rgba(192, 192, 192, 0.9);
+          box-shadow: 0 0 15px rgba(192, 192, 192, 0.9);
 }
 
 .curve {
@@ -108,6 +114,7 @@ body {
   border: 1px solid aqua;
   margin-left: 75px;
   margin-bottom: 40px;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
 }
 
@@ -132,6 +139,8 @@ body {
 }
 
 .middle #testBox {
+  -webkit-box-shadow: 0 0 15px rgba(192, 192, 192, 0.3);
+          box-shadow: 0 0 15px rgba(192, 192, 192, 0.3);
   border-radius: 10px;
   margin-left: 75px;
   width: 400px;
@@ -182,13 +191,73 @@ body {
 
 .bottom1 {
   width: 100%;
+  border: 1px solid yellow;
+  height: 300px;
+  background-color: #585989;
+  color: white;
+}
+
+.bottom1 .access {
+  margin-left: 75px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  margin-top: 100px;
   border: 1px solid blue;
-  height: 200px;
+  width: 300px;
+}
+
+.bottom1 .callTo {
+  margin-left: 75px;
+  width: 555px;
+  border: 1px solid blue;
+}
+
+.bottom1 .buttonBox {
+  border: 1px solid red;
+  height: 100px;
+  width: 500px;
+  float: right;
+  margin-right: 75px;
+  margin-top: -130px;
+}
+
+.bottom1 .buttonBox input {
+  width: 475px;
+  height: 40px;
+  border-radius: 3px;
+  border: .5px solid black;
+  padding-left: 15px;
+  margin-bottom: 10px;
+}
+
+.bottom1 .buttonBox .button {
+  width: 175px;
+  font-size: small;
+  margin-top: 5px;
+  height: 40px;
+  background-color: #3065f8;
+  color: white;
+  padding-top: 13px;
+  padding-bottom: 20px;
+  border-radius: 4px;
+  line-height: 1.5;
+  font-family: 'Raleway', sans-serif;
+  border: none;
+  -webkit-box-shadow: 0 0 2px gray;
+          box-shadow: 0 0 2px gray;
 }
 
 .bottom2 {
   width: 100%;
   border: 1px solid purple;
-  height: 300px;
+  height: 400px;
+  background-color: #070439;
+  color: white;
+}
+
+.bottom2 #logo {
+  margin-left: 75px;
+  margin-top: 100px;
+  fill: white;
 }
 /*# sourceMappingURL=style.css.map */
