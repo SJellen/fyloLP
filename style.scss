@@ -306,3 +306,35 @@ body {
     }
 }
 
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+    body {
+        max-width: 375px;
+        min-width: max-content;
+     }
+
+
+    .header {
+    height: 60px;
+    
+    width: 100%;
+    
+    #logo {
+       width: 100px;
+       padding: 25px;
+       margin-left: 25px;
+    }
+    .links {
+    float: right;
+    margin-top: 40px;
+    margin-right: 25px;
+    }
+    .links a {
+    padding: 0 15px;
+    }
+}
+
+
+
+
+ }
