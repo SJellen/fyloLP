@@ -1,0 +1,29 @@
+body {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 1440px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+.header {
+  height: 75px;
+  border-bottom: 1px solid red;
+  width: 100%;
+  font-family: 'Raleway', sans-serif;
+}
+
+.header #logo {
+  width: 100px;
+}
+
+.header .links {
+  float: right;
+}
+
+.header .links a {
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */
