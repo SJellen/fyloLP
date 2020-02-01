@@ -5,8 +5,10 @@ body {
     margin: 0 auto;
     box-sizing: border-box;
     max-width: 1440px;
+    min-width: max-content;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
+    
 }
 
 
@@ -97,7 +99,7 @@ body {
 .middle {
     width: 100%;
     border: 1px solid green;
-    height: 700px;
+    height: 675px;
     background-color: hsl(240, 75%, 98%);
     margin-top: -6px;
     .heading {
@@ -105,6 +107,7 @@ body {
        border: 1px solid aqua;
        margin-left: 75px;
        margin-bottom: 40px;
+       font-weight: 700;
     }
     .callTo {
         border: 1px solid red;
@@ -112,24 +115,74 @@ body {
         width: 555px;
     }
     a {
-       
+        color: hsl(170, 45%, 43%);
         margin-right: 7px;
         text-decoration: none;
     }
     .linkBox {
         margin-left: 75px;
-        border-bottom: 1px solid red;
+        border-bottom: .5px solid hsl(170, 45%, 43%);
         width: 171.5px;
-
-        
+        color: hsl(170, 45%, 43%);
+        line-height: 1.9;
     }
+    #testBox {
+        
+        border-radius: 10px;
+        margin-left: 75px;
+        width: 400px;
+        margin-top: 50px;
+        background-color: white;
+        padding-bottom: 20px;;
+    }
+    #quoteMarks {
+        margin-left: 25px;
+        margin-top: 25px;
+        margin-bottom: 5px;
+    }
+    .imgK {
+        height: 40px;
+        border-radius: 50%;
+        margin-left: 25px;
+        margin-top: 15px;
+    }
+    .quote {
+        font-weight: normal;
+        width: 350px;
+        margin: 0 auto;
+        line-height: .7cm;
+    }
+    .Kyle {
+        margin-left: 75px;
+        margin-top: -40px;
+        font-size: small;
+    }
+    .founder {
+        margin-left: 75px;
+        font-weight: normal;
+        margin-top: -20px;
+        font-size: x-small;
+    }
+    #teamwork {
+        border: 1px solid purple;
+        float: right;
+        margin-top: -490px;
+        margin-right: 25px
 
+    }
 
 
 
 
 
 }
+
+
+
+
+
+
+
 
 
 .bottom1 {
