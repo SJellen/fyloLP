@@ -184,7 +184,7 @@ body {
 .bottom1 {
     width: 100%;
     border: 1px solid yellow;
-    height: 300px;
+    height: 275px;
     background-color: hsl(238, 22%, 44%);
     color: white;
     .access {
@@ -242,14 +242,67 @@ body {
 .bottom2 {
     width: 100%;
     border: 1px solid purple;
-    height: 400px;
+    height: 350px;
     background-color: hsl(243, 87%, 12%);
     color: white;
     
     #logo {
         margin-left: 75px;
-        margin-top: 100px;
+        margin-top: 80px;
         fill: white;
+    }
+    .contact {
+        border: 1px solid;
+        width: 250px;
+        height: 75px;
+        margin-left: 75px;
+        margin-top: 20px;
+        a {
+            color: white;
+            text-decoration: none;
+        }
+        img {
+            margin-right: 14px;
+            margin-top: 14px;
+        }
+    }
+    .info {
+        border: 1px solid;
+        margin-top: -67px;
+        width: 80px;
+        height: 150px;
+        margin-left: 500px;
+    }
+    .info a {
+        color: white;
+        text-decoration: none;
+        line-height: 2;
+    }
+    .legal {
+        border: 1px solid;
+        margin-left: 800px;
+        width: 100px;
+        margin-top: -152px;
+    }
+
+    .legal a {
+        color: white;
+        text-decoration: none;
+        line-height: 2;
+    }
+    #social {
+        float: right;
+        margin-right: 175px;
+        margin-top: -100px;
+    }
+    #social i {
+        text-align: center;
+        width: 30px;
+        height: 30px;
+        border: 1px solid white;
+        border-radius: 100%;
+        margin-right: 17px;
+         line-height: 2;
     }
 }
 

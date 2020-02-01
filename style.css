@@ -192,7 +192,7 @@ body {
 .bottom1 {
   width: 100%;
   border: 1px solid yellow;
-  height: 300px;
+  height: 275px;
   background-color: #585989;
   color: white;
 }
@@ -250,14 +250,75 @@ body {
 .bottom2 {
   width: 100%;
   border: 1px solid purple;
-  height: 400px;
+  height: 350px;
   background-color: #070439;
   color: white;
 }
 
 .bottom2 #logo {
   margin-left: 75px;
-  margin-top: 100px;
+  margin-top: 80px;
   fill: white;
+}
+
+.bottom2 .contact {
+  border: 1px solid;
+  width: 250px;
+  height: 75px;
+  margin-left: 75px;
+  margin-top: 20px;
+}
+
+.bottom2 .contact a {
+  color: white;
+  text-decoration: none;
+}
+
+.bottom2 .contact img {
+  margin-right: 14px;
+  margin-top: 14px;
+}
+
+.bottom2 .info {
+  border: 1px solid;
+  margin-top: -67px;
+  width: 80px;
+  height: 150px;
+  margin-left: 500px;
+}
+
+.bottom2 .info a {
+  color: white;
+  text-decoration: none;
+  line-height: 2;
+}
+
+.bottom2 .legal {
+  border: 1px solid;
+  margin-left: 800px;
+  width: 100px;
+  margin-top: -152px;
+}
+
+.bottom2 .legal a {
+  color: white;
+  text-decoration: none;
+  line-height: 2;
+}
+
+.bottom2 #social {
+  float: right;
+  margin-right: 175px;
+  margin-top: -100px;
+}
+
+.bottom2 #social i {
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  border: 1px solid white;
+  border-radius: 100%;
+  margin-right: 17px;
+  line-height: 2;
 }
 /*# sourceMappingURL=style.css.map */
