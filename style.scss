@@ -5,11 +5,9 @@ body {
     margin: 0 auto;
     box-sizing: border-box;
     width: 1440px;
-    
     min-width: fit-content;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    
 }
 
 
@@ -17,17 +15,15 @@ body {
 
 .header {
     height: 100px;
-    border-bottom: 1px solid red;
     width: 100%;
     font-family: 'Raleway', sans-serif;
     #logo {
        width: 150px;
-       padding: 25px;
+       padding: 50px;
        margin-left: 50px;
     }
     .links {
     float: right;
-    border-bottom: 1px solid red;
     margin-top: 80px;
     margin-right: 25px;
     }
@@ -42,11 +38,9 @@ body {
 
 .top {
     width: 100%;
-    border: 1px solid gold;
     height: 500px;
     h1 {
         width: 525px;
-        border: 1px solid silver;
         margin-left: 75px;
         margin-top: 100px;
         font-family: 'Raleway', sans-serif;
@@ -54,18 +48,15 @@ body {
     }
     p {
         width: 525px;
-        border: 1px solid teal;
         margin: 30px 75px;
     }
     img{
         float: right;
-        border: 1px solid magenta;
         margin-top: -250px;
         margin-right: 75px;
     }
     .buttonBox {
         display: inline-block;
-        border: 1px solid orange;
         margin-left: 75px; 
     }
     input {
@@ -95,7 +86,8 @@ body {
 
 
 .curve {
-    padding-top: 150px;
+    padding-top: 50px;
+    margin-bottom: -28px;
 }
 
 
@@ -104,20 +96,17 @@ body {
 
 .middle {
     width: 100%;
-    border: 1px solid green;
     height: 675px;
     background-color: hsl(240, 75%, 98%);
     margin-top: -6px;
     .heading {
        width: 650px;
-       border: 1px solid aqua;
        margin-left: 75px;
        margin-bottom: 40px;
        font-family: 'Raleway', sans-serif;
        font-weight: 700;
     }
     .callTo {
-        border: 1px solid red;
         margin-left: 75px;
         width: 555px;
     }
@@ -171,7 +160,6 @@ body {
         font-size: x-small;
     }
     #teamwork {
-        border: 1px solid purple;
         float: right;
         margin-top: -490px;
         margin-right: 25px
@@ -184,25 +172,23 @@ body {
 
 .bottom1 {
     width: 100%;
-    border: 1px solid yellow;
+    margin-top: -100px;
     height: 275px;
     background-color: hsl(238, 22%, 44%);
     color: white;
     .access {
+        padding-top: 70px;
         margin-left: 75px;
         font-family: 'Raleway', sans-serif;
         font-weight: 700;
         margin-top: 100px;
-        border: 1px solid blue;
         width: 300px;
     }
     .callTo {
         margin-left: 75px;
         width: 555px;
-        border: 1px solid blue;
     }
     .buttonBox {
-        border: 1px solid red;
         height: 100px;
         width: 500px;
         float: right;
@@ -242,7 +228,6 @@ body {
 
 .bottom2 {
     width: 100%;
-    border: 1px solid purple;
     height: 350px;
     background-color: hsl(243, 87%, 12%);
     color: white;
@@ -253,7 +238,6 @@ body {
         fill: white;
     }
     .contact {
-        border: 1px solid;
         width: 250px;
         height: 75px;
         margin-left: 75px;
@@ -268,7 +252,6 @@ body {
         }
     }
     .info {
-        border: 1px solid;
         margin-top: -67px;
         width: 80px;
         height: 150px;
@@ -280,7 +263,6 @@ body {
         line-height: 2;
     }
     .legal {
-        border: 1px solid;
         margin-left: 800px;
         width: 100px;
         margin-top: -152px;
@@ -362,10 +344,10 @@ footer p {
 
 .top {
     width: 375px;
-    height: 725px;
+    height: 525px;
+    margin-bottom: -75px;
     h1 {
         width: 325px;
-        border: 1px solid silver;
         margin-left: 25px;
         text-align: center;
         margin-top:  350px;
@@ -425,7 +407,9 @@ footer p {
 
 .curve {
     width: 375px;
-    margin-top: -75px;
+   padding: 0;
+   margin-bottom: 5px;
+    
 
 }
 
@@ -434,23 +418,23 @@ footer p {
 
 .middle {
     width: 375px;
-    border: 1px solid green;
-    height: 975px;
+    padding-top: 400px;
+    position: relative;
+    height: 550px;
     background-color: hsl(240, 75%, 98%);
-    margin-top: -6px;
+    margin-top: -10px;
     .heading {
-    width: 325px;
+       width: 325px;
        margin-left: 25px;
        margin-bottom: 40px;
        font-family: 'Raleway', sans-serif;
        font-weight: 700;
        font-size: large;
        text-align: center;
-       margin-top: 400px;
+       margin-top: -20px;
     }
     .callTo {
         margin-left: 25px;
-        margin-top: 000px;
         width: 310px;
         font-size: small;
     }
@@ -467,6 +451,7 @@ footer p {
         color: hsl(170, 45%, 43%);
         line-height: 1.9;
         font-size: small;
+        margin-bottom: -50px;
         margin-top: 50px;
     }
     #testBox {
@@ -474,8 +459,8 @@ footer p {
         border-radius: 10px;
         margin-left: 45px;
         width: 275px;
-        margin-top: 50px;
-        margin-bottom: 75px;
+        margin-top: 100px;
+        
         background-color: white;
         padding-bottom: 20px;
         height: 160px;
@@ -513,12 +498,11 @@ footer p {
         font-size: xx-small;
     }
     #teamwork {
-        border: 1px solid purple;
+        position: absolute;
         width: 325px;
         height: auto;
-        margin-right: 20px;
-        margin-top: -900px;
-        
+        margin-left: 20px;
+        margin-top: -800px;
     }
 }
 
@@ -627,13 +611,11 @@ footer p {
         line-height: 2;
     }
     #social {
-       border: 1px solid white;
        width: 200px;
        margin-right: 50px;
        margin-top: 75px;
     }
     #social i {
-        
         text-align: center;
         width: 30px;
         height: 30px;
