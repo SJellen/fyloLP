@@ -4,8 +4,9 @@ body {
     padding: 0 ;
     margin: 0 auto;
     box-sizing: border-box;
-    max-width: 1440px;
-    min-width: max-content;
+    width: 1440px;
+    
+    min-width: fit-content;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     
@@ -304,20 +305,42 @@ body {
         margin-right: 17px;
          line-height: 2;
     }
+
+}
+
+ footer {
+    float: right;
+}
+
+footer p {
+    opacity: .5;
+    color: white;
+    text-decoration: none;
+    margin-top: -25px;   
+    height: 0px;
+    width: 300px;
 }
 
  /* Extra small devices (phones, 600px and down) */
  @media only screen and (max-width: 600px) {
+    
+
     body {
         max-width: 375px;
-        min-width: max-content;
+        min-width: fit-content;
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+        align-content: center;
+        
      }
 
 
     .header {
     height: 60px;
+    width: 375px;
     
-    width: 100%;
+   
     
     #logo {
        width: 80px;
@@ -327,7 +350,7 @@ body {
     .links {
     float: right;
     margin-top: 30px;
-    margin-right: 1100px;
+    
     }
     .links a {
     padding: 0 15px;
@@ -338,7 +361,7 @@ body {
 
 
 .top {
-    width: 100%;
+    width: 375px;
     height: 725px;
     h1 {
         width: 325px;
@@ -410,7 +433,7 @@ body {
 
 
 .middle {
-    width: 100%;
+    width: 375px;
     border: 1px solid green;
     height: 975px;
     background-color: hsl(240, 75%, 98%);
@@ -493,20 +516,142 @@ body {
         border: 1px solid purple;
         width: 325px;
         height: auto;
-        position: fixed;
+        margin-right: 20px;
         margin-top: -900px;
-        margin-left: 25px;
+        
     }
 }
 
 
+.bottom1 {
+    width: 375px;
+    height: 325px;
+    background-color: hsl(238, 22%, 44%);
+    color: white;
+    .access {
+        margin-left: 25px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        margin-top: 50px;
+        width: 300px;
+        text-align: center;
+        font-size: medium;
+    }
+    .callTo {
+        margin-left: 55px;
+        width: 260px;
+        font-weight: 400;
+        font-size: small;
+        text-align: center;
+        margin-top: 20px;
+
+    }
+    .buttonBox {
+        height: 100px;
+        width: 290px;
+       float: left;
+        margin-top: 10px;
+        margin-left: 75px;
+        input {
+            width: 210px;
+            height: 30px;
+            border-radius: 3px;
+            border: .5px solid black;
+            padding-left: 15px;
+            margin-bottom: 10px;
+        }
+        .button {
+            width: 225px;
+            font-size: small;
+            margin-top: 5px;
+            height: 30px;
+            background-color: hsl(224, 93%, 58%);
+            color: white;
+            padding-top: 13px;
+            padding-bottom: 20px;
+            border-radius: 4px;
+            line-height: .8;
+            font-family: 'Raleway', sans-serif; 
+            border: none; 
+            box-shadow: 0 0 2px gray;
+        }
+    }
+}
 
 
+.bottom2 {
+    width: 375px;
+    height: 800px;
+    background-color: hsl(243, 87%, 12%);
+    color: white;
+    
+    #logo {
+        margin-left: 35px;
+        margin-top: 60px;
+        fill: white;
+    }
+    .contact {
+        width: 250px;
+        height: 75px;
+        margin-left: 35px;
+        margin-top: 20px;
+        a {
+            color: white;
+            text-decoration: none;
+        }
+        img {
+            margin-right: 14px;
+            margin-top: 14px;
+        }
+    }
+    .info {
+        margin-top: 67px;
+        width: 80px;
+        height: 150px;
+        margin-left: 35px;
+    }
+    .info a {
+        color: white;
+        text-decoration: none;
+        line-height: 2;
+    }
+    .legal {
+        margin-left: 35px;
+        width: 100px;
+        margin-top: 32px;
+    }
 
-
-
-
-
-
+    .legal a {
+        color: white;
+        text-decoration: none;
+        line-height: 2;
+    }
+    #social {
+       border: 1px solid white;
+       width: 200px;
+       margin-right: 50px;
+       margin-top: 75px;
+    }
+    #social i {
+        
+        text-align: center;
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+        margin-right: 17px;
+        
+    }
 
  }
+
+
+ footer {
+     opacity: .2;
+    color: white;
+     margin-top: -40px;
+     float: left;
+     margin-left: 25px;
+     text-decoration: none;
+ }
+
+}

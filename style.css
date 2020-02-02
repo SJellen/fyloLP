@@ -3,10 +3,10 @@ body {
   margin: 0 auto;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  max-width: 1440px;
-  min-width: -webkit-max-content;
-  min-width: -moz-max-content;
-  min-width: max-content;
+  width: 1440px;
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
 }
@@ -322,17 +322,35 @@ body {
   line-height: 2;
 }
 
+footer {
+  float: right;
+}
+
+footer p {
+  opacity: .5;
+  color: white;
+  text-decoration: none;
+  margin-top: -25px;
+  height: 0px;
+  width: 300px;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   body {
     max-width: 375px;
-    min-width: -webkit-max-content;
-    min-width: -moz-max-content;
-    min-width: max-content;
+    min-width: -webkit-fit-content;
+    min-width: -moz-fit-content;
+    min-width: fit-content;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    -ms-flex-line-pack: center;
+        align-content: center;
   }
   .header {
     height: 60px;
-    width: 100%;
+    width: 375px;
   }
   .header #logo {
     width: 80px;
@@ -342,14 +360,13 @@ body {
   .header .links {
     float: right;
     margin-top: 30px;
-    margin-right: 1100px;
   }
   .header .links a {
     padding: 0 15px;
     font-size: x-small;
   }
   .top {
-    width: 100%;
+    width: 375px;
     height: 725px;
   }
   .top h1 {
@@ -413,7 +430,7 @@ body {
     margin-top: -75px;
   }
   .middle {
-    width: 100%;
+    width: 375px;
     border: 1px solid green;
     height: 975px;
     background-color: #f6f6fe;
@@ -496,9 +513,129 @@ body {
     border: 1px solid purple;
     width: 325px;
     height: auto;
-    position: fixed;
+    margin-right: 20px;
     margin-top: -900px;
+  }
+  .bottom1 {
+    width: 375px;
+    height: 325px;
+    background-color: #585989;
+    color: white;
+  }
+  .bottom1 .access {
     margin-left: 25px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    margin-top: 50px;
+    width: 300px;
+    text-align: center;
+    font-size: medium;
+  }
+  .bottom1 .callTo {
+    margin-left: 55px;
+    width: 260px;
+    font-weight: 400;
+    font-size: small;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .bottom1 .buttonBox {
+    height: 100px;
+    width: 290px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 75px;
+  }
+  .bottom1 .buttonBox input {
+    width: 210px;
+    height: 30px;
+    border-radius: 3px;
+    border: .5px solid black;
+    padding-left: 15px;
+    margin-bottom: 10px;
+  }
+  .bottom1 .buttonBox .button {
+    width: 225px;
+    font-size: small;
+    margin-top: 5px;
+    height: 30px;
+    background-color: #3065f8;
+    color: white;
+    padding-top: 13px;
+    padding-bottom: 20px;
+    border-radius: 4px;
+    line-height: .8;
+    font-family: 'Raleway', sans-serif;
+    border: none;
+    -webkit-box-shadow: 0 0 2px gray;
+            box-shadow: 0 0 2px gray;
+  }
+  .bottom2 {
+    width: 375px;
+    height: 800px;
+    background-color: #070439;
+    color: white;
+  }
+  .bottom2 #logo {
+    margin-left: 35px;
+    margin-top: 60px;
+    fill: white;
+  }
+  .bottom2 .contact {
+    width: 250px;
+    height: 75px;
+    margin-left: 35px;
+    margin-top: 20px;
+  }
+  .bottom2 .contact a {
+    color: white;
+    text-decoration: none;
+  }
+  .bottom2 .contact img {
+    margin-right: 14px;
+    margin-top: 14px;
+  }
+  .bottom2 .info {
+    margin-top: 67px;
+    width: 80px;
+    height: 150px;
+    margin-left: 35px;
+  }
+  .bottom2 .info a {
+    color: white;
+    text-decoration: none;
+    line-height: 2;
+  }
+  .bottom2 .legal {
+    margin-left: 35px;
+    width: 100px;
+    margin-top: 32px;
+  }
+  .bottom2 .legal a {
+    color: white;
+    text-decoration: none;
+    line-height: 2;
+  }
+  .bottom2 #social {
+    border: 1px solid white;
+    width: 200px;
+    margin-right: 50px;
+    margin-top: 75px;
+  }
+  .bottom2 #social i {
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin-right: 17px;
+  }
+  footer {
+    opacity: .2;
+    color: white;
+    margin-top: -40px;
+    float: left;
+    margin-left: 25px;
+    text-decoration: none;
   }
 }
 /*# sourceMappingURL=style.css.map */
