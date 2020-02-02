@@ -335,17 +335,170 @@ body {
     width: 100%;
   }
   .header #logo {
-    width: 100px;
+    width: 80px;
     padding: 25px;
-    margin-left: 25px;
+    margin-left: 5px;
   }
   .header .links {
     float: right;
-    margin-top: 40px;
-    margin-right: 25px;
+    margin-top: 30px;
+    margin-right: 1100px;
   }
   .header .links a {
     padding: 0 15px;
+    font-size: x-small;
+  }
+  .top {
+    width: 100%;
+    height: 725px;
+  }
+  .top h1 {
+    width: 325px;
+    border: 1px solid silver;
+    margin-left: 25px;
+    text-align: center;
+    margin-top: 350px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: x-large;
+    line-height: 1.5;
+  }
+  .top p {
+    width: 325px;
+    margin: 30px 25px;
+    text-align: center;
+    font-size: medium;
+    font-weight: 400;
+  }
+  .top img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: auto;
+    margin-top: 150px;
+    margin-left: 25px;
+  }
+  .top .buttonBox {
+    display: inline-block;
+    margin-left: 25px;
+    width: 330px;
+    height: 100px;
+  }
+  .top input {
+    width: 310px;
+    height: 25px;
+    padding-left: 10px;
+    border-radius: 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .top .button {
+    width: 320px;
+    margin-left: 2px;
+    margin-top: 15px;
+    height: 25px;
+    color: white;
+    padding-top: 13px;
+    padding-bottom: 20px;
+    border-radius: 4px;
+    line-height: .8;
+    font-family: 'Raleway', sans-serif;
+    border: none;
+    -webkit-box-shadow: 0 0 15px rgba(192, 192, 192, 0.9);
+            box-shadow: 0 0 15px rgba(192, 192, 192, 0.9);
+  }
+  .curve {
+    width: 375px;
+    margin-top: -75px;
+  }
+  .middle {
+    width: 100%;
+    border: 1px solid green;
+    height: 975px;
+    background-color: #f6f6fe;
+    margin-top: -6px;
+  }
+  .middle .heading {
+    width: 325px;
+    margin-left: 25px;
+    margin-bottom: 40px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: large;
+    text-align: center;
+    margin-top: 400px;
+  }
+  .middle .callTo {
+    margin-left: 25px;
+    margin-top: 000px;
+    width: 310px;
+    font-size: small;
+  }
+  .middle a {
+    color: #3c9f8f;
+    margin-right: 7px;
+    text-decoration: none;
+  }
+  .middle .linkBox {
+    margin-left: 105px;
+    border-bottom: 0.5px solid #3c9f8f;
+    width: 137px;
+    color: #3c9f8f;
+    line-height: 1.9;
+    font-size: small;
+    margin-top: 50px;
+  }
+  .middle #testBox {
+    -webkit-box-shadow: 0 0 15px rgba(192, 192, 192, 0.3);
+            box-shadow: 0 0 15px rgba(192, 192, 192, 0.3);
+    border-radius: 10px;
+    margin-left: 45px;
+    width: 275px;
+    margin-top: 50px;
+    margin-bottom: 75px;
+    background-color: white;
+    padding-bottom: 20px;
+    height: 160px;
+  }
+  .middle #quoteMarks {
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+  }
+  .middle .imgK {
+    height: 25px;
+    border-radius: 50%;
+    margin-left: 25px;
+    margin-top: 15px;
+  }
+  .middle .quote {
+    font-weight: normal;
+    font-size: x-small;
+    width: 225px;
+    margin: 0 auto;
+    line-height: .5cm;
+    margin-left: 25px;
+  }
+  .middle .Kyle {
+    margin-left: 55px;
+    margin-top: -30px;
+    font-size: x-small;
+    font-weight: 700;
+  }
+  .middle .founder {
+    margin-left: 55px;
+    font-weight: normal;
+    margin-top: -15px;
+    font-size: xx-small;
+  }
+  .middle #teamwork {
+    border: 1px solid purple;
+    width: 325px;
+    height: auto;
+    position: fixed;
+    margin-top: -900px;
+    margin-left: 25px;
   }
 }
 /*# sourceMappingURL=style.css.map */
