@@ -7,8 +7,6 @@
 
 > A frontend mentor challenge: Fylo landing page
 
-### ✨ [Demo](https://smelly-street.surge.sh/)
-
 ## Author
 
 👤 **Scott Jellen**
